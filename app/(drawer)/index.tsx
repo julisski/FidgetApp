@@ -13,11 +13,11 @@ export default function HomeScreen() {
 
       <View style={styles.box}>
         <View style={styles.buttonContainer}>
-          <Button title="Go to Fidget" onPress={() => router.replace('/fidget')} />
+          <Button title="Go to Fidget" onPress={() => router.push('/fidget')} />
         </View>
 
         <View style={styles.buttonContainer}>
-          <Button title="Go to Profile" onPress={() => router.replace('/profile')} />
+          <Button title="Go to Profile" onPress={() => router.push('/profile')} />
         </View>
 
         <View style={styles.buttonContainer}>
